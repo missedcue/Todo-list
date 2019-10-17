@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Todo List</title>
+        <!--Roboto font-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/reset.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    </head>
+    <body>
+        <header>
+            <input type="text" placeholder="Add new Task..." id="item">
+            <button id="add">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAElBMVEW93bO93bOY2F2X2F2M10P///+uYBMkAAAABHRSTlMAdN/f8KewgwAAAAFiS0dEBfhv6ccAAAAHdElNRQfjCgkTBTFZdX3xAAAALElEQVQI12NgAAIhRQYYEHGkElMQCEQcQSSDigsUOCGYzsgKqGox2EOGIBIAE5IL5N9M4DkAAAAASUVORK5CYII=" /></svg>
+            </button>
+        </header>
+
+        <div class="container">
+            <!--uncompleted tasks-->
+                <ul class="todo" id="todo"></ul>
+
+
+            <!--completed tasks-->
+                <ul class="todo" id="completed"></ul>  
+        </div>
+
+        <!--js scripts-->
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>
